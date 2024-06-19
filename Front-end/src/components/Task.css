@@ -1,0 +1,46 @@
+/* Task.css */
+
+.task-table {
+    margin-top: 25px;
+}
+
+.task-table th {
+    background-color: #f5f5f5;
+    font-weight: bold;
+}
+
+.task-table td, .task-table th {
+    padding: 12px 15px;
+}
+
+.todo__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+    background-color: #ffffff;
+    transition: background-color 0.3s ease;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.todo__list:last-child {
+    border-bottom: none;
+}
+
+.todo__list:hover {
+    background-color: #f1f1f1;
+}
+
+.MuiSvgIcon-root {
+    cursor: pointer;
+    transition: opacity 0.3s, transform 0.3s;
+    opacity: 0.7;
+}
+
+.MuiSvgIcon-root:hover {
+    opacity: 1;
+    transform: scale(1.1);
+    color: #ee0808;
+}
